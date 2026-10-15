@@ -9,6 +9,8 @@
   <style>
     :root{color-scheme:dark;--bg:#111820;--surface:#1b2630;--surface2:#21313a;--line:#35444d;--muted:#a4b0b9;--text:#f5f2e9;--mint:#c4f2b6;--mint-dark:#17372a;--warm:#ffb88c;--red:#ffc0b4;--shadow:0 20px 50px rgba(0,0,0,.16)}
     *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;background:radial-gradient(ellipse at 85% 0%,#29403b 0,transparent 40%),var(--bg);color:var(--text);min-height:100vh}button,input,textarea{font:inherit}button{cursor:pointer}button:focus-visible,input:focus-visible,textarea:focus-visible{outline:3px solid var(--mint);outline-offset:3px}a{color:var(--mint)}.shell{width:min(1100px,calc(100% - 36px));margin:auto}.top{display:flex;align-items:center;justify-content:space-between;padding:31px 0 42px;gap:16px}.brand{display:flex;align-items:center;gap:11px;font-size:16px;font-weight:800;letter-spacing:-.03em}.mark{background:var(--mint);color:#183122;border-radius:12px;width:36px;height:36px;display:grid;place-items:center;transform:rotate(-8deg);font-size:20px}.top .hint{color:var(--muted);font-size:12px;letter-spacing:.06em}.hero{display:grid;grid-template-columns:1.5fr 1fr;gap:36px;align-items:end;margin-bottom:36px}.eyebrow{text-transform:uppercase;letter-spacing:.16em;color:var(--mint);font-size:11px;font-weight:800}.hero h1{font-size:clamp(38px,6vw,66px);line-height:1.09;letter-spacing:-.07em;margin:13px 0 17px}.hero h1 em{font-style:normal;color:var(--mint)}.hero p{line-height:1.85;color:var(--muted);margin:0;max-width:470px}.stats{display:grid;grid-template-columns:1fr 1fr;gap:14px}.stat{border:1px solid var(--line);border-radius:20px;padding:19px 23px;background:rgba(255,255,255,.025)}.stat strong{display:block;font-size:34px;font-weight:800;letter-spacing:-.05em}.stat span{font-size:13px;color:var(--muted)}.layout{display:grid;grid-template-columns:340px minmax(0,1fr);align-items:start;gap:22px;padding-bottom:34px}.panel{background:var(--surface);border:1px solid var(--line);border-radius:24px;box-shadow:var(--shadow);overflow:hidden}.panel-head{padding:25px 25px 0;display:flex;justify-content:space-between;align-items:center;gap:8px}.panel-head h2{margin:0;font-size:20px;letter-spacing:-.03em}.subheading{padding:0 25px;color:var(--muted);font-size:12px;line-height:1.7}.editor{padding:20px 25px 27px}.field{display:block;margin-bottom:18px}.field span{display:block;font-weight:650;font-size:13px;margin-bottom:9px}.field input,.field textarea,.search{display:block;width:100%;background:#131e26;color:var(--text);border:1px solid var(--line);border-radius:12px;padding:13px 14px;line-height:1.4}.field textarea{resize:vertical;min-height:93px}.field input::placeholder,.field textarea::placeholder,.search::placeholder{color:#7f9099}.primary{background:var(--mint);border:0;border-radius:12px;color:#163325;font-weight:800;min-height:45px;padding:11px 18px;transition:filter .2s,transform .2s}.primary:hover{filter:brightness(1.06);transform:translateY(-1px)}.full{width:100%}.micro{font-size:12px;color:var(--muted);line-height:1.65;margin-top:15px}.rightcol{min-width:0;display:grid;gap:22px}.toolbar{display:flex;gap:10px;align-items:center;padding:15px 22px 18px;flex-wrap:wrap}.search{flex:1;min-width:160px}.filters{display:flex;gap:6px;flex-wrap:wrap}.chip{border:1px solid var(--line);border-radius:50px;background:transparent;color:var(--muted);padding:10px 13px;font-weight:650;font-size:12px}.chip[aria-pressed="true"]{background:var(--mint-dark);border-color:#6a9d7f;color:var(--mint)}.cards{padding:0 22px 22px;display:grid;gap:11px}.item{border:1px solid var(--line);background:#202d37;border-radius:16px;padding:19px 18px;display:flex;align-items:flex-start;gap:13px;justify-content:space-between}.item h3{font-size:19px;letter-spacing:-.02em;line-height:1.4;margin:0 0 6px;overflow-wrap:anywhere}.item p{margin:0;color:#c7d1d5;font-size:13px;line-height:1.7;overflow-wrap:anywhere}.item small{display:block;color:var(--muted);font-size:11px;margin-top:12px}.actions{display:flex;gap:7px;flex-shrink:0}.iconbtn{width:35px;height:35px;display:grid;place-items:center;background:transparent;border:1px solid var(--line);color:var(--muted);border-radius:10px;font-size:15px}.iconbtn:hover{border-color:var(--mint);color:var(--mint)}.iconbtn.done{color:var(--mint);background:var(--mint-dark);border-color:#658770}.item.mastered h3{color:#b7d6c5}.empty{border:1px dashed var(--line);border-radius:16px;text-align:center;padding:34px 16px;color:var(--muted);line-height:1.7}.practice{background:linear-gradient(135deg,#2e4b43,#1d3534 75%);border-color:#44615b;padding:22px 25px}.practice-top{display:flex;justify-content:space-between;gap:10px;align-items:center;margin-bottom:14px}.practice-top h2{font-size:20px;margin:0}.ghost{border:1px solid #6a877a;border-radius:11px;background:transparent;color:var(--mint);padding:10px 15px;font-weight:700}.ghost:hover{background:rgba(255,255,255,.06)}.prompt-card{border:1px solid #54736b;background:rgba(0,0,0,.12);padding:20px;border-radius:15px;min-height:132px;display:flex;flex-direction:column;justify-content:center;gap:10px}.prompt-card .en{font-size:21px;font-weight:750;letter-spacing:-.03em;overflow-wrap:anywhere}.prompt-card .zh{font-size:14px;color:#d7e5df}.prompt-card .tip{font-size:13px;color:#bdd0c9}.footer{padding:6px 0 36px;text-align:center;color:var(--muted);font-size:12px}.toast{position:fixed;bottom:21px;left:50%;transform:translate(-50%,120px);opacity:0;background:var(--mint);color:#143022;padding:12px 19px;border-radius:30px;font-size:13px;font-weight:750;box-shadow:var(--shadow);transition:all .25s;z-index:5;pointer-events:none}.toast.show{opacity:1;transform:translate(-50%,0)}.tag{display:inline-block;font-size:10px;font-weight:800;letter-spacing:.04em;background:#344a46;color:var(--mint);padding:5px 8px;border-radius:6px;margin-bottom:10px}@media(max-width:840px){.hero{grid-template-columns:1fr;gap:24px}.layout{grid-template-columns:1fr}.top{padding-bottom:28px}.hero{margin-bottom:26px}.stats{max-width:500px}}@media(max-width:530px){.shell{width:min(100% - 24px,1100px)}.top{padding:18px 0 28px}.top .hint{display:none}.hero h1{font-size:42px}.hero p{font-size:14px}.panel-head{padding:20px 19px 0}.subheading{padding:0 19px}.editor{padding:17px 19px 22px}.toolbar{padding:14px 16px}.cards{padding:0 16px 16px}.item{padding:16px 14px}.item h3{font-size:17px}.practice{padding:20px}.stat{padding:16px}}
+    .iconbtn.favorite[aria-pressed="true"]{color:var(--warm);border-color:var(--warm);background:rgba(255,184,140,.1)}
+    @media(max-width:530px){.item{flex-direction:column}.actions{align-self:flex-end}.iconbtn{width:44px;height:44px}}
   </style>
 </head>
 <body>
@@ -25,7 +27,7 @@
           <p>把你在电影、播客和日常对话里遇见的地道英语放在这里。记下来，慢慢变成自己的表达。</p>
         </div>
         <div class="stats" aria-label="学习统计">
-          <div class="stat"><strong id="total-count">0</strong><span>已收藏的表达</span></div>
+          <div class="stat"><strong id="total-count">0</strong><span>已收录的表达</span></div>
           <div class="stat"><strong id="mastered-count">0</strong><span>已经掌握</span></div>
         </div>
       </section>
@@ -44,7 +46,7 @@
         <div class="rightcol">
           <section class="panel" aria-labelledby="library-title">
             <div class="panel-head"><h2 id="library-title">📚 我的表达</h2></div>
-            <p class="subheading">点 ✓ 标记已掌握，也可以搜索和删除。</p>
+            <p class="subheading">点 ☆ 收藏、✓ 标记已掌握，也可以搜索和删除。</p>
             <div class="toolbar">
               <input class="search" id="search" aria-label="搜索表达" type="search" placeholder="🔎 搜索英语或中文…">
               <div class="filters" role="group" aria-label="掌握状态筛选">
@@ -52,6 +54,7 @@
                 <button type="button" class="chip" data-filter="learning" aria-pressed="false">学习中</button>
                 <button type="button" class="chip" data-filter="mastered" aria-pressed="false">已掌握</button>
               </div>
+              <button type="button" id="favorites-only" class="chip" aria-pressed="false">⭐ 只看收藏</button>
             </div>
             <div id="phrase-list" class="cards" aria-live="polite"></div>
           </section>
@@ -70,13 +73,14 @@
     'use strict';
     const KEY = 'phrase-pocket-v1';
     const examples = [
-      { id: 'demo-1', english: "It's worth a shot.", meaning: '值得一试。', notes: '鼓励自己尝试新事物时使用。', mastered: false },
-      { id: 'demo-2', english: "That makes sense.", meaning: '这样就说得通了。', notes: '听懂别人解释之后的自然回应。', mastered: false },
-      { id: 'demo-3', english: "I'm still figuring it out.", meaning: '我还在摸索。', notes: '当你还没想明白某件事的时候。', mastered: true }
+      { id: 'demo-1', english: "It's worth a shot.", meaning: '值得一试。', notes: '鼓励自己尝试新事物时使用。', mastered: false, favorite: false },
+      { id: 'demo-2', english: "That makes sense.", meaning: '这样就说得通了。', notes: '听懂别人解释之后的自然回应。', mastered: false, favorite: false },
+      { id: 'demo-3', english: "I'm still figuring it out.", meaning: '我还在摸索。', notes: '当你还没想明白某件事的时候。', mastered: true, favorite: false }
     ];
     const $ = id => document.getElementById(id);
     let phrases = loadPhrases();
     let filter = 'all';
+    let favoritesOnly = false;
     let drawn = null;
     let toastTimer = null;
 
@@ -87,7 +91,8 @@
           const parsed = JSON.parse(saved);
           if (Array.isArray(parsed)) {
             return parsed.filter(p => p && typeof p.id === 'string' && typeof p.english === 'string' && typeof p.meaning === 'string')
-              .map(p => ({ id: p.id, english: p.english, meaning: p.meaning, notes: typeof p.notes === 'string' ? p.notes : '', mastered: p.mastered === true }));
+              // 旧记录没有 favorite 字段时，默认未收藏，继续使用原来的存储键。
+              .map(p => ({ id: p.id, english: p.english, meaning: p.meaning, notes: typeof p.notes === 'string' ? p.notes : '', mastered: p.mastered === true, favorite: p.favorite === true }));
           }
         }
       } catch (error) { console.warn('无法读取本地记录：', error); }
@@ -95,7 +100,7 @@
     }
     function persist() {
       try { localStorage.setItem(KEY, JSON.stringify(phrases)); return true; }
-      catch (error) { console.warn('无法保存本地记录：', error); showToast('浏览器拒绝保存：新内容可能丢失'); return false; }
+      catch (error) { console.warn('无法保存本地记录：', error); showToast('浏览器拒绝保存：本次更改可能丢失'); return false; }
     }
     function showToast(message) {
       const toast = $('toast');
@@ -121,14 +126,16 @@
       const visible = phrases.filter(p => {
         const matchesText = [p.english, p.meaning, p.notes].some(value => value.toLocaleLowerCase().includes(query));
         const matchesState = filter === 'all' || (filter === 'mastered' ? p.mastered : !p.mastered);
-        return matchesText && matchesState;
+        return matchesText && matchesState && (!favoritesOnly || p.favorite);
       });
       const list = $('phrase-list');
       list.replaceChildren();
       if (!visible.length) {
         const empty = document.createElement('div');
         empty.className = 'empty';
-        empty.textContent = phrases.length ? '没有找到符合条件的表达，换个关键词试试。' : '收藏夹还是空的。从左边添加你的第一句英语吧 ✨';
+        empty.textContent = !phrases.length ? '收藏夹还是空的。从左边添加你的第一句英语吧 ✨'
+          : favoritesOnly ? '没有符合条件的收藏。试试点 ☆ 收藏表达，或调整搜索和筛选。'
+          : '没有找到符合条件的表达，换个关键词试试。';
         list.append(empty);
       }
       for (const p of visible) {
@@ -147,6 +154,15 @@
           const note = document.createElement('small'); note.textContent = '↳ ' + p.notes; content.append(note);
         }
         const actions = document.createElement('div'); actions.className = 'actions';
+        const favorite = makeButton(p.favorite ? '⭐' : '☆', `${p.favorite ? '取消收藏' : '收藏'}：${p.english}`, 'iconbtn favorite', () => {
+          phrases = phrases.map(x => x.id === p.id ? { ...x, favorite: !x.favorite } : x);
+          persist(); render();
+          // 重绘列表后保留键盘焦点；取消收藏使卡片隐藏时，回到筛选开关。
+          const next = Array.from(document.querySelectorAll('[data-favorite-id]')).find(b => b.dataset.favoriteId === p.id);
+          (next || $('favorites-only')).focus();
+        });
+        favorite.setAttribute('aria-pressed', String(p.favorite));
+        favorite.dataset.favoriteId = p.id;
         const done = makeButton('✓', p.mastered ? '标记为学习中' : '标记为已掌握', `iconbtn${p.mastered ? ' done' : ''}`, () => {
           phrases = phrases.map(x => x.id === p.id ? { ...x, mastered: !x.mastered } : x);
           persist(); render();
@@ -158,7 +174,7 @@
           if (drawn && drawn.id === p.id) { drawn = null; clearPractice(); }
           persist(); render(); showToast('已删除');
         });
-        actions.append(done, remove); item.append(content, actions); list.append(item);
+        actions.append(favorite, done, remove); item.append(content, actions); list.append(item);
       }
     }
     function clearPractice() {
@@ -182,12 +198,18 @@
       const notes = $('notes').value.trim();
       if (!english || !meaning) { showToast('请填写英语表达和中文意思'); return; }
       const id = typeof crypto !== 'undefined' && typeof crypto.randomUUID === 'function' ? crypto.randomUUID() : `p-${Date.now()}-${Math.random().toString(36).slice(2)}`;
-      phrases.unshift({ id, english, meaning, notes, mastered: false });
-      persist(); $('phrase-form').reset(); filter = 'all';
+      phrases.unshift({ id, english, meaning, notes, mastered: false, favorite: false });
+      const saved = persist(); $('phrase-form').reset(); filter = 'all'; favoritesOnly = false;
+      $('favorites-only').setAttribute('aria-pressed', 'false');
       document.querySelectorAll('[data-filter]').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.filter === filter)));
-      $('search').value = ''; render(); $('english').focus(); showToast('收藏成功！');
+      $('search').value = ''; render(); $('english').focus(); if (saved) showToast('添加成功！');
     });
     $('search').addEventListener('input', render);
+    $('favorites-only').addEventListener('click', () => {
+      favoritesOnly = !favoritesOnly;
+      $('favorites-only').setAttribute('aria-pressed', String(favoritesOnly));
+      render();
+    });
     document.querySelectorAll('[data-filter]').forEach(button => button.addEventListener('click', () => {
       filter = button.dataset.filter;
       document.querySelectorAll('[data-filter]').forEach(b => b.setAttribute('aria-pressed', String(b === button)));
